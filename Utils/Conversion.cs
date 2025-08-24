@@ -71,4 +71,4 @@ namespace PhonePadTest.Utils
             return string.Join("", converted);
         }
     }
-    }
+}
