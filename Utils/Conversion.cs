@@ -12,8 +12,8 @@ namespace PhonePadTest.Utils
             int key = int.Parse(text[0].ToString());
             if (key < 0 || key > 9)
                 throw new ArgumentException("Invalid key");
-            Console.WriteLine(text.Length);
-            Console.WriteLine(keypad[key].Length);
+            //Console.WriteLine(text.Length); for debugging
+            //Console.WriteLine(keypad[key].Length);  for debugging
 
             if ((text.Length % keypad[key].Length) == 0)
             {
